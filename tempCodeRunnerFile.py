@@ -1,13 +1,4 @@
-print(23>45)
-print(23>=45)
-print(23<=45)
-print(23!=45)
-print(23==45)
-
-
-# string comparission
-
-print("apple">"banana")
-print("apple">"apple")
-print("apple">="apple")
-print("ABCD" > "ABC")
+name=int(input("Enter first number: "))
+name2=int(input("Enter second number:"))
+name3=name**name2
+print(name3)
