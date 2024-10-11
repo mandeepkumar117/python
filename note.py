@@ -61,3 +61,9 @@
 
 
 # floore division operator->
+
+# implace->implace function are the function in which no exta object has been created
+# count->how many repeated number in the list
+# special note->
+# no return function->append(),extend(), sort(), reverse(), insert(), clear()
+# return function->count(), index(), len(), max(), min(), sum(), pop()

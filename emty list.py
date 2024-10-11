@@ -42,13 +42,54 @@
 # lis[1]="guavas"
 # print(lis)
 
-lis=["mango", "banana"]
-lis1=[23,4,6,77,98]
-m=max(lis1)
-print(m)
-m=max(lis)
-print(m)
-m=len(lis)
-print(m)
-m=len(lis1)
-print(m)
+# lis=["mango", "banana","90"]
+# lis1=[23,4,6,77,98]
+# m=max(lis1)
+# print(m)
+# m=max(lis)
+# print(m)
+# m=len(lis)
+# print(m)
+# m=len(lis1)
+# print(m)
+# m=min(lis)
+# print(m)
+# m=sum(lis1)
+# print(m)
+
+
+# lis1=[23,4,6,77,98,89,89,97]
+# m=lis1.index(97)
+# print(m)
+# m=lis1.count(89)
+# print(m)
+
+
+# lis1=["ajay", "mandeep", "aditya","aditya","sourabh", "aditya"]
+# print(lis1)
+# lis1.reverse()
+# print(lis1)
+# # deleted_value=lis1.pop()
+# # print(lis1)
+# # print(deleted_value)
+
+# lis1.remove("aditya")
+# lis1.remove("aditya")
+# lis1.remove("aditya")
+
+# print(lis1)
+# del lis1
+# print(lis1)
+# lis1.clear()
+# print(lis1)
+
+# slice method->slice is not a method
+# lis1[start: end: jump]
+# jump->default 1
+# end->exclude(just brfor end)
+lis1=[12,34,35,'sourabh',56,5,8,'aditya',33,56,9]
+a=lis1[3:8:1]
+print(a)
+b=lis1[3:8:1]
+print(b)
+
