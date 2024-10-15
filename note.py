@@ -67,3 +67,6 @@
 # special note->
 # no return function->append(),extend(), sort(), reverse(), insert(), clear()
 # return function->count(), index(), len(), max(), min(), sum(), pop()
+
+
+# slice->sliceing is used to get the slice of sequnce data type
