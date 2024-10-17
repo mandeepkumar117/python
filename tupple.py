@@ -62,8 +62,18 @@ lis=[["ajay","mandeep"],(23,45)]
 # print(lis)
 
 #len() #max(), #min(), #sum(), #index(), #count()
-t=(3,4,5,6,7,3)
-a=t.count(3)
-print(a)
-a=sorted(t)
-print(a)
+# t=(3,4,5,6,7,3)
+# a=t.count(3)
+# print(a)
+# a=sorted(t)
+# print(a)
+
+
+
+t=(23,)
+print(type(t))
+t1=("fofgjo",)
+print(type(t1))
+
+t2=1,2,34,5,67 # use in function
+print(type(t2))

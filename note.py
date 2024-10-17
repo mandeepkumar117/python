@@ -70,3 +70,6 @@
 
 
 # slice->sliceing is used to get the slice of sequnce data type
+
+
+# mutable->list,dictionary,set
