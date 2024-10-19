@@ -1,7 +1,7 @@
 # tuple->
 # 0)it is container,which store multiple data oblect
 # 1)it is sequnce data type.(order data type)
-# 2)it is a immutable data type
+# 2)it is a immutable data type.which means no changes in value
 #3) a)representation ()
 # b)comma seprated
 # 4)it is faster then list
