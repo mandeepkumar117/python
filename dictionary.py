@@ -16,8 +16,8 @@
 
 
 
-s={1, 23, 4, 45, 3, 44, 67, 98, 59}
-print(s)
+# s={1, 23, 4, 45, 3, 44, 67, 98, 59}
+# print(s)
 
 # d={("one",):"monday","two":"tuesday","third":"wensday",'one':'thursday'}
 # d={"one":"monday","two":"tuesday","thiree":"wensday"}
@@ -29,3 +29,26 @@ print(s)
 # print(d)
 # d.update({"seven":"sunday"})
 # print(d)
+
+
+
+# list as a value in dictionary,
+# dictionary as  a value in ditionary
+
+# d={1:["ajay",23,"bhopal"],2:["jay",34,"ujjain"]}
+# print(d)
+# print(d[1])
+# print(d[1][2])
+# d[2][2]="itrsi"
+# print(d)
+
+# d={1:{"name":"ajay","age":23,"city":"bhopal"},2:{"name":"jay","age":34,"city":"ujjain"}}
+# d[2][2]="itarsi"
+# print(d)
+# d.update({[2][2]})="indore"
+# d[2].update({"city":"indore"})
+# print(d)
+
+
+
+
