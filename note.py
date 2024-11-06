@@ -73,3 +73,8 @@
 
 
 # mutable->list,dictionary,set
+
+
+# list=[23,45,30,78,9,50]
+# s=list.index(30)
+# print(s)

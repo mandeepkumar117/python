@@ -7,6 +7,9 @@
 # bool
 
 
+# interview question->
+# 1)wihich one support indexing->list,tuple,string
+
 
 name=int(input("Enter first number: "))
 name2=int(input("Enter second number:"))
