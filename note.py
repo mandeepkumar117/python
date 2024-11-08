@@ -73,6 +73,8 @@
 
 
 # mutable->list,dictionary,set
+# space->means indent,it takes one tab
+# where use space-> there create block
 
 
 # list=[23,45,30,78,9,50]
