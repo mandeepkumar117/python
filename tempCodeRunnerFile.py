@@ -1,3 +1,13 @@
-num={1,2,3,4,5,6,7,8,9,10}
-a=range(1,11,1)
-print(list(a))
+=int(input("Enter any range: "))
+i=1
+sum=0
+while i<=n:
+    if i%2==0:
+        if i<n-1:
+            print(i,end=",")
+        else:
+            print(i)  
+        sum=sum+i          
+    i=i+1 
+print("total even number of sum= ",sum) 
+                   

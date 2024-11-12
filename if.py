@@ -19,9 +19,18 @@
 #    
 # wap to determine whether a charecter or not
 
-ch=input("Enter any character")
-v="aeiouAEIOU"
-if ch[0] in v :
-    print("vowel")
-else :
-    print("not")
+x=int(input("Enter 1rst no= "))
+y=int(input("enter 2nd no= "))
+print("1 Add\n 2 sub\n 3.div\n 4.multi")
+n=int(input("enater or ch="))
+if n==1:
+    print(x+y)
+elif n==2:
+    print(x-y)
+elif n==3:
+    print(x/y)
+elif( n==4):
+    print(x*y)
+else:
+    print("please valid choice")
+
