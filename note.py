@@ -78,5 +78,7 @@
 
 
 # list=[23,45,30,78,9,50]
-# s=list.index(30)
+# s=list.indmex(30)
 # print(s)
+
+# collection data->string,list,tuple,set,dict,range
