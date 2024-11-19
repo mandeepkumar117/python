@@ -70,6 +70,8 @@
 
 
 # slice->sliceing is used to get the slice of sequnce data type
+# main difference between->tuple->memory efficient faster.it will take memory according to need,but list will take extra memory.also list is dynamic
+# memory alocation
 
 
 # mutable->list,dictionary,set
@@ -81,4 +83,4 @@
 # s=list.indmex(30)
 # print(s)
 
-# collection data->string,list,tuple,set,dict,range
+# collection data->string,list,tuple,set,frizenset,dict
