@@ -17,6 +17,10 @@
 # a1=range(2,3)
 # print(list(a1))
 
-x="neeraj"
-a=x[1:6][1:4][1:2]
-print(a)
+# x="neeraj"
+# a=x[1:6][1:4][1:2]
+# print(a)
+
+num=[23,45,56,67,87,89] #it is not possible to find range.it cant be done
+a=range(0,5)
+print(list(a))

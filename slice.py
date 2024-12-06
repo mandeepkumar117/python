@@ -6,8 +6,8 @@
 lis1=[12,34,35,'sourabh',56,5,8,'aditya',33,56,9]
 # a=lis1[3:8:1]
 # print(a)
-# b=lis1[3:8:1]
-# print(b)
+b=lis1[8:3:-1]
+print(b)
 # print(lis1)
 # a=lis1[3:]
 # print(a)
@@ -41,24 +41,24 @@ lis1=[12,34,35,'sourabh',56,5,8,'aditya',33,56,9]
 # a=str[-6:-2:-1]
 # print(a)
 
-str="i love python"
-a=str[:-6:]
-print(a)
-a=str[::-1]
-print(a)
-a=str[3:3]
-print(a)
-a=str[-3:-3]
-print(a)
-a=str[-5:-2:-2]
-print(a)
-a=str[1:5:-1]
-print(a)
-a=str[-4:3]
-print(a)
-a=str[-4:5]
-print(a)
-a=str[5:1:-1]
-print(a)
+# str="i love python"
+# a=str[:-6:]
+# print(a)
+# a=str[::-1]
+# print(a)
+# a=str[3:3]
+# print(a)
+# a=str[-3:-3]
+# print(a)
+# a=str[-5:-2:-2]
+# print(a)
+# a=str[1:5:-1]
+# print(a)
+# a=str[-4:3]
+# print(a)
+# a=str[-4:5]
+# print(a)
+# a=str[5:1:-1]
+# print(a)
 
 

@@ -2,12 +2,13 @@
 # 1)
 # lis=[]
 # 2)
-# li=list()#list method
-# print(lis)
+li=list()#list method
+# print(list)
 # print(li) 
 
 #any() this is method
 
+# lis=[]
 # print(any(lis))
 # lis=[67]
 # print(any(lis))
@@ -22,6 +23,7 @@
 # lis=[["mango", "banana"],["200/kg", "50/dozen"]]
 # lis[0].append("apple")
 # lis[1].append("300/kg")
+# lis.extend(("guava", "700/kg"))
 # print(lis)
 
 # extend->accept sequnce data 
@@ -35,6 +37,7 @@
 # insert->where you want to add data.then we have to use insert function
 
 # insert(index,element)
+
 # lis=["mango", "banana"]
 # print(lis)
 # lis.insert(1,"apple")
@@ -42,8 +45,8 @@
 # lis[1]="guavas"
 # print(lis)
 
-# lis=["mango", "banana","90"]
-# lis1=[23,4,6,77,98]
+lis=["mango", "banana","90"]
+lis1=[23,4,6,77,98]
 # m=max(lis1)
 # print(m)
 # m=max(lis)
@@ -56,13 +59,17 @@
 # print(m)
 # m=sum(lis1)
 # print(m)
+# m=min(lis1)
+# print(m)
+# m=sum(lis)
+# print(lis)
 
 
-# lis1=[23,4,6,77,98,89,89,97]
-# m=lis1.index(97)
-# print(m)
-# m=lis1.count(89)
-# print(m)
+lis1=[23,4,6,77,98,89,89,97]
+m=lis1.index(97)
+print(m)
+m=lis1.count(89)
+print(m)
 
 
 # lis1=["ajay", "mandeep", "aditya","aditya","sourabh", "aditya"]
@@ -88,7 +95,7 @@
 # jump->default 1
 # : >colon by defoult start 0. only starting index colon
 # end->exclude(just brfor end)
-lis1=[12,34,35,'sourabh',56,5,8,'aditya',33,56,9]
+# lis1=[12,34,35,'sourabh',56,5,8,'aditya',33,56,9]
 # a=lis1[3:8:1]
 # print(a)
 # b=lis1[3:8:1]
@@ -104,8 +111,8 @@ lis1=[12,34,35,'sourabh',56,5,8,'aditya',33,56,9]
 # print(a)
 # a=lis1[-4:-9:-2]
 # print(a)
-a=lis1[::-1]
-print(a)
+# a=lis1[::-1]
+# print(a)
 
 
 # st="we are here to learn python. and slicing is very helpfull"

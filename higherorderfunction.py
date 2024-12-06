@@ -1,3 +1,5 @@
+# hierorder function->when we pass function as a argument then we called hierorder function
+
 # hierorderfunction->map.filter,reduce
 # here start from map function
 # mylist=[10,20,30,40,50]

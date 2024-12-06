@@ -54,21 +54,27 @@
 
 #  5. Write a program to find how many vowels and consonants are present in strings.
 # str=input("Enter any string: ")
+# vowel=0
+# consonant=0
+# space=0
 # for i in str:
 #     n=['a','e','i','o','u','A','E','I','O','U']
 #     if i in n:
-#         print(i, "is vowel")
-#     else:
-#         print(i, "is consonant")    
-
+#         vowel=vowel+1
+#     elif i==' ':
+#         space=space+1
+#     else:    
+#         consonant=consonant+1
+# print(vowel)
+# print(consonant)
 
 # 6. Write a program to create calculator through functions. 
 
 # while True:
-     # print("1.Add\n 2.subtract\n 3.multiplication\n 4.divide\n 5.OFF")
-#     n=int(input("Enter your choice: "))
-#     x=[1,2,3,4]
-#     if n in x:
+#      print("1.Add\n 2.subtract\n 3.multiplication\n 4.divide\n 5.OFF")
+#      n=int(input("Enter your choice: "))
+#      x=[1,2,3,4]
+#      if n in x:
 #         x=int(input("Enter first number: "))
 #         y=int(input("Enter second number: "))
 #         if n==1:
@@ -78,18 +84,18 @@
 #         elif n==3:
 #             print("multiplication = ",x*y)
 #         elif n==4:
-#             print("divide = ",x/y)
-#     elif n==5:
-#         break
-#     else:
+#             print("divide = ", x/y)
+#         elif n==5:
+#          break
+#      else:
 #         print("please enter right number thank you")                   
 
-# 7. Write a program to check given year is leep year or not.
+# # 7. Write a program to check given year is leep year or not.
 
 # num=int(input("Enter any year: "))
 # if(num%100!=0 and num % 4 == 0):
 #     print(num,"is a leap year")
-# elif(num % 400 == 0):
+# elif(num % 400 == 0 and num %100 == 0):
 #     print(num,"is a leap year")
 # else:
 #     print(num,"is not leap year")        
@@ -97,13 +103,13 @@
 
 # 8. Write a program to check if the given strings are anagram or not. (python=typhon).
 
-str1=input("Enter first string: ")
-str2=input("Enter second string: ")
-for i in str1:
-    if i in str2:
-        print("given string is anagram")
-    else:
-        print("given string not anagram")    
+# str1=input("Enter first string: ")
+# str2=input("Enter second string: ")
+# for i in str1:
+#     if i in str2:
+#         print("given string is anagram")
+#     else:
+#         print("given string not anagram")    
       
 
   
@@ -154,23 +160,23 @@ for i in str1:
 # number itself. Example – n=145, sum of 1!+4!+5!=145)
 
 
-# n=int(input("Enter any number: "))
-# temp=n
-# sumoffactorial=0
-# last=0
-# while temp > 0:
-#     last = temp % 10
-#     fact=1
-#     while last > 0:
-#         fact = fact * last 
-#         last = last-1  
-#     sumoffactorial += fact
-#     temp = temp // 10
-# print(sumoffactorial)    
-# if sumoffactorial == n:
-#     print(n," is a peterson number")
-# else:
-#     print(n," is not a peterson number")
+n=int(input("Enter any number: "))
+temp=n
+sumoffactorial=0
+last=0
+while temp > 0:
+    last = temp % 10
+    fact=1
+    while last > 0:
+        fact = fact * last 
+        last = last-1  
+    sumoffactorial += fact
+    temp = temp // 10
+print(sumoffactorial)    
+if sumoffactorial == n:
+    print(n," is a peterson number")
+else:
+    print(n," is not a peterson number")
 
 
 
