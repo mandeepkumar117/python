@@ -84,3 +84,5 @@
 # print(s)
 
 # collection data->string,list,tuple,set,frizenset,dict
+
+# instence variable->object dependent variable is called instence variable
