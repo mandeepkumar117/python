@@ -45,16 +45,17 @@
 #    * * *
 #   * * * *
     # print(' ' * (n-i) + ' *' * i)
-    # print(' ' * i + ' *' * (n-i))
+    # print(' ' * i + '*' * (n-i))
+    
 
     # i=i+1
 
-n=int(input("enter any number: "))
-i=1
-while i<=n:
-    if i %2!=0:
-        print(" " * (n-i) + " *" * i)
-    i=i+1        
+# n=int(input("enter any number: "))
+# i=1
+# while i<=n:
+#     if i %2!=0:
+#         print(" " * (n-i) + " *" * i)
+#     i=i+1        
 
 
 # *
@@ -99,15 +100,15 @@ while i<=n:
 #    **
 #     *
 
-# n=int(input("Enter number: "))
-# i=1
-# while i<=n:
-#     print(' ' * (n-i) + '*' * i)
-#     i=i+1
-# i=i-2
-# while i>0:
-#     print((n-i) * ' ' + '*' * i)
-#     i=i-1
+n=int(input("Enter number: "))
+i=1
+while i<=n:
+    print(' ' * (n-i) + '*' * i)
+    i=i+1
+i=i-2
+while i>0:
+    print((n-i) * ' ' + '*' * i)
+    i=i-1
 
 
 # *****
@@ -129,3 +130,8 @@ while i<=n:
 # while i<=n:
 #     print('*' * i)
 #     i=i+1    
+
+# n=int(input("enter row no: "))
+# i=1
+# while i<=n:
+#     print((n-i) * ' ' + '*' * i)

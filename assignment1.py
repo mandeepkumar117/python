@@ -12,7 +12,21 @@
 # if temp==sum:
 #     print("no is armstrong")
 # else:
-#     print("no is not armstrong")        
+#     print("no is not armstrong")  
+
+# n=int(input("Enter number: "))
+# temp=n
+# last=0
+# sum=0
+# for i in range(1,n):
+#     last=i%10
+#     sum=sum+last*last*last
+#     i=i//10
+# if(temp==sum):
+#     print("armstrong number")
+# else:
+#     print("not armstrong number")         
+      
 
 # 2. Write a program to check if the given string is a palindrome. (madam=madam)
 
@@ -160,32 +174,32 @@
 # number itself. Example – n=145, sum of 1!+4!+5!=145)
 
 
-n=int(input("Enter any number: "))
-temp=n
-sumoffactorial=0
-last=0
-while temp > 0:
-    last = temp % 10
-    fact=1
-    while last > 0:
-        fact = fact * last 
-        last = last-1  
-    sumoffactorial += fact
-    temp = temp // 10
-print(sumoffactorial)    
-if sumoffactorial == n:
-    print(n," is a peterson number")
-else:
-    print(n," is not a peterson number")
+# n=int(input("Enter any number: "))
+# temp=n
+# sumoffactorial=0
+# last=0
+# while temp > 0:
+#     last = temp % 10
+#     fact=1
+#     while last > 0:
+#         fact = fact * last 
+#         last = last-1  
+#     sumoffactorial += fact
+#     temp = temp // 10
+# print(sumoffactorial)    
+# if sumoffactorial == n:
+#     print(n," is a peterson number")
+# else:
+#     print(n," is not a peterson number")
 
 
 
 
 
 
-# 12.Write a program to check given number is spy no or not. ( A number is said to be a Spy
-# number if the sum of all the digits is equal to the product of all digits. Examples: Input :
-# 1412. 1+4+1+2 == 1*4*1*2 Output : Spy Number.)
+# # 12.Write a program to check given number is spy no or not. ( A number is said to be a Spy
+# # number if the sum of all the digits is equal to the product of all digits. Examples: Input :
+# # 1412. 1+4+1+2 == 1*4*1*2 Output : Spy Number.)
 
 # n=int(input("Enter any number: "))
 # temp=n
@@ -213,36 +227,59 @@ else:
 # where the sum of its digits equals the number itself when those digits are squared.
 # Example, 19 is a sunny number because 1**2 + 9**2 = = 82, now 8+2==1+9.)
 
-# n=int(input("Enter any number: "))
-# temp=n
-# originalsum=0
-# while temp>0:
-#     originalsum=originalsum + temp % 10
-#     temp=temp//10
-# print(originalsum)
-# sumofsquare=0
-# temp=n
-# while temp>0:
-#     digit=temp % 10
-#     sumofsquare=sumofsquare + digit * digit
-#     temp=temp //10
-# print(sumofsquare)
+n=int(input("Enter any number: "))
+temp=n
+originalsum=0
+while temp>0:
+    last=temp%10
+    originalsum=originalsum + last 
+    temp=temp//10
+print(originalsum)
+sumofsquare=0
+temp=n
+while temp>0:
+    digit=temp % 10
+    sumofsquare=sumofsquare + digit * digit
+    temp=temp //10
+print(sumofsquare)
 
-# reducedsum=0
-# while sumofsquare > 0:
-#     reducedsum = reducedsum + sumofsquare % 10
-#     sumofsquare = sumofsquare //10
-#     if sumofsquare == 0 and reducedsum >10:
-#         sumofsquare = reducedsum
-#         reducedsum =0
-# print(reducedsum)
+reducedsum=0
+while sumofsquare > 0:
+    reducedsum = reducedsum + sumofsquare % 10
+    sumofsquare = sumofsquare //10
+    if sumofsquare == 0 and reducedsum >10:
+        sumofsquare = reducedsum
+        # reducedsum =0
+print(reducedsum)
 
-# if reducedsum == originalsum:
-#     print(n,"is sunny number.",end=" ")
+if reducedsum == originalsum:
+    print(n,"is sunny number.",end=" ")
+else:
+    print(n, "is not a sunny number")            
+
+
+
+
+# n= int(input("Input number:"))
+
+# digit = 0
+# sum=0
+# x=y=n
+
+# while n>0:
+#     n=n//10
+#     digit=digit+1
+
+# print(digit)
+
+# while x>0:
+#     last_digit = x%10
+#     sum = sum+last_digit**digit
+#     x=x//10
+# print(sum)
+
+# if sum==y:
+#     print("Arm strong no.....")
+
 # else:
-#     print(n, "is not a sunny number")            
-
-
-
-
-  
+#     print("Not Arm strong no.....")   

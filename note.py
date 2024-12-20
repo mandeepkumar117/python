@@ -85,4 +85,4 @@
 
 # collection data->string,list,tuple,set,frizenset,dict
 
-# instence variable->object dependent variable is called instence variable
+# instence variable->object dependent variable is called instence variable.object ke badlne pr jo value ko change kar de wo instance variable hai
