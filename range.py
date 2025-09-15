@@ -21,6 +21,10 @@
 # a=x[1:6][1:4][1:2]
 # print(a)
 
-num=[23,45,56,67,87,89] #it is not possible to find range.it cant be done
-a=range(0,5)
+# num=[23,45,56,67,87,89] #it is not possible to find range.it cant be done
+# a=range(0,5)
+# print(list(a))
+
+mylist=[1,2,3,4,5,6,7,8,9,10]
+a=range(15,-5,-3)
 print(list(a))

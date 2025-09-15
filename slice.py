@@ -6,8 +6,8 @@
 lis1=[12,34,35,'sourabh',56,5,8,'aditya',33,56,9]
 # a=lis1[3:8:1]
 # print(a)
-b=lis1[8:3:-1]
-print(b)
+# b=lis1[8:3:-1]
+# print(b)
 # print(lis1)
 # a=lis1[3:]
 # print(a)

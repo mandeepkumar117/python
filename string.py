@@ -56,14 +56,14 @@
 
 
 # split() return value is list
-# s="we are here to learn c++ , it is here a high level lang."
+s="we are here to learn c++ , it is here a high level lang."
 
 
 # s1=s.split()
 # print(s1)
 
-# s1=s.split('e')
-# print(s1)
+s1=s.split('e')
+print(s1)
 # s1=s.split("here")
 # print(s1)
 # s1=s.split("here",1)
@@ -81,8 +81,8 @@
 # print(s)
 
 
-s="its now or never"
-s1="sti.won.ro.reven"
+# s="its now or never"
+# s1="sti.won.ro.reven"
 
 # s=s.split()
 # print(s)
@@ -96,10 +96,10 @@ s1="sti.won.ro.reven"
 
 # slice()
 
-s="apple banana"
-a=s[:6]
-print(a)
-b=s[::1]
-print(b)
-c=s[6:]+" "+s[:5]
-print(c)
+# s="apple banana"
+# a=s[:6]
+# print(a)
+# b=s[::1]
+# print(b)
+# c=s[6:]+" "+s[:5]
+# print(c)

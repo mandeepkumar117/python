@@ -227,35 +227,35 @@
 # where the sum of its digits equals the number itself when those digits are squared.
 # Example, 19 is a sunny number because 1**2 + 9**2 = = 82, now 8+2==1+9.)
 
-n=int(input("Enter any number: "))
-temp=n
-originalsum=0
-while temp>0:
-    last=temp%10
-    originalsum=originalsum + last 
-    temp=temp//10
-print(originalsum)
-sumofsquare=0
-temp=n
-while temp>0:
-    digit=temp % 10
-    sumofsquare=sumofsquare + digit * digit
-    temp=temp //10
-print(sumofsquare)
+# n=int(input("Enter any number: "))
+# temp=n
+# originalsum=0
+# while temp>0:
+#     last=temp%10
+#     originalsum=originalsum + last 
+#     temp=temp//10
+# print(originalsum)
+# sumofsquare=0
+# temp=n
+# while temp>0:
+#     digit=temp % 10
+#     sumofsquare=sumofsquare + digit * digit
+#     temp=temp //10
+# print(sumofsquare)
 
-reducedsum=0
-while sumofsquare > 0:
-    reducedsum = reducedsum + sumofsquare % 10
-    sumofsquare = sumofsquare //10
-    if sumofsquare == 0 and reducedsum >10:
-        sumofsquare = reducedsum
-        # reducedsum =0
-print(reducedsum)
+# reducedsum=0
+# while sumofsquare > 0:
+#     reducedsum = reducedsum + sumofsquare % 10
+#     sumofsquare = sumofsquare //10
+#     if sumofsquare == 0 and reducedsum >10:
+#         sumofsquare = reducedsum
+#         # reducedsum =0
+# print(reducedsum)
 
-if reducedsum == originalsum:
-    print(n,"is sunny number.",end=" ")
-else:
-    print(n, "is not a sunny number")            
+# if reducedsum == originalsum:
+#     print(n,"is sunny number.",end=" ")
+# else:
+#     print(n, "is not a sunny number")            
 
 
 
@@ -279,7 +279,9 @@ else:
 # print(sum)
 
 # if sum==y:
-#     print("Arm strong no.....")
+#     print("Armstrong no.....")
 
 # else:
 #     print("Not Arm strong no.....")   
+
+      
