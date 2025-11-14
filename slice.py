@@ -60,5 +60,9 @@ lis1=[12,34,35,'sourabh',56,5,8,'aditya',33,56,9]
 # print(a)
 # a=str[5:1:-1]
 # print(a)
-
+sl=[23,34,56,54,32,12,33,44,56]
+# a=sl[::-1]
+# print(a)
+a=sl[-2:6:2]
+print(a)
 

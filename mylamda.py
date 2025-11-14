@@ -9,8 +9,8 @@ from functools import reduce
 
 # example:
 
-# x=lambda x,y,z,p,q,r:x+y-z/p%q//r
-# print(x(1,2,3,4,5,6))
+x=lambda x,y,z,p,q,r:x+y-z/p%q//r
+print(x(1,2,3,4,5,6))
 # q.1)find even number and also square  and square of sum 
 
 
@@ -38,10 +38,10 @@ from functools import reduce
 # # print(even_square(even_sum)) 
 
 
-mylist=[30,20,34,32,23,11,25]
-even_data=list(filter(lambda x: x%2==0,mylist))
+# mylist=[30,20,34,32,23,11,25]
+# even_data=list(filter(lambda x: x%2==0,mylist))
 
-even_sum=reduce(lambda x,y: x+y,even_data)
+# even_sum=reduce(lambda x,y: x+y,even_data)
 
-even_square= lambda even_sum: print(even_sum**2)
-print(even_square)
+# even_square= lambda even_sum: print(even_sum**2)
+# print(even_square(even_sum))

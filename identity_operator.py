@@ -1,6 +1,6 @@
-identity opeartor->is, is not
+# identity opeartor->is, is not
 
 
 
-# =>ie operator gives true when we test for same object
+# =>is operator gives true when we test for same object
 # =>otherwise False

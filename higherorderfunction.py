@@ -27,7 +27,7 @@
 
 import functools as new
 
-mytuple=(10,20,30,40,50,60,70)
+mytuple=(10,20,30,80,50,60,70)
 def maxdigit(x,y):
     if x>y:
         return x
